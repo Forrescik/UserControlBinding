@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="BindingTestControls.MyUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			 xmlns:local="clr-namespace:BindingTestControls"
+             mc:Ignorable="d" Width="166.667" Height="61.458">
+	<Grid>		
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Button Command="{Binding RelativeSource={RelativeSource FindAncestor, 
+			AncestorType={x:Type local:MyUserControl}}, Path=UserControlCommand}" Content="Click Me" />
+		<TextBlock Grid.Column="1" Text="{Binding RelativeSource={RelativeSource FindAncestor, 
+			AncestorType={x:Type local:MyUserControl}}, Path=UserControlText}"/>
+	</Grid>
+</UserControl>

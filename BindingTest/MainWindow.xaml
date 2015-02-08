@@ -1,0 +1,13 @@
+﻿<Window x:Class="BindingTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+		xmlns:viewModel="clr-namespace:BindingTestViewModel;assembly=BindingTestViewModel"
+		xmlns:bindingTestControls="clr-namespace:BindingTestControls;assembly=BindingTestControls">
+	<Window.DataContext>
+		<viewModel:MainViewModel/>
+	</Window.DataContext>
+    <Grid>
+		<bindingTestControls:MyUserControl  UserControlCommand="{Binding ViewModelCommand}" UserControlText="{Binding ControlText}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingTest", "BindingTest\BindingTest.csproj", "{F17CFABB-3601-4D11-A206-1BA7DC0FA2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingTestViewModel", "BindingTestViewModel\BindingTestViewModel.csproj", "{176F03FA-FCEC-48EB-8226-174BF38A7CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingTestControls", "BindingTestControls\BindingTestControls.csproj", "{28E432C0-5E24-4697-A433-8B10E493CFEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17CFABB-3601-4D11-A206-1BA7DC0FA2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17CFABB-3601-4D11-A206-1BA7DC0FA2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17CFABB-3601-4D11-A206-1BA7DC0FA2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17CFABB-3601-4D11-A206-1BA7DC0FA2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176F03FA-FCEC-48EB-8226-174BF38A7CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176F03FA-FCEC-48EB-8226-174BF38A7CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176F03FA-FCEC-48EB-8226-174BF38A7CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176F03FA-FCEC-48EB-8226-174BF38A7CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E432C0-5E24-4697-A433-8B10E493CFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E432C0-5E24-4697-A433-8B10E493CFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E432C0-5E24-4697-A433-8B10E493CFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E432C0-5E24-4697-A433-8B10E493CFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
